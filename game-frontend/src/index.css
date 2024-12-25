@@ -1,0 +1,184 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&family=Pixelify+Sans:wght@400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&family=Pixelify+Sans:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@font-face {
+  font-family: "BigNoodleTitling";
+  src: url(./assets/fonts/big_noodle_titling.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Azonix";
+  src: url(./assets/fonts/Azonix.otf) format("opentype");
+}
+@font-face {
+    font-family: "Retro";
+    src: url(./assets/fonts/retroPixel.otf) format("opentype");
+  }
+@font-face {
+  font-family: "Inter";
+  src: url(./assets//fonts/LTInternet-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "BuiltTitling";
+  src: url(./assets/fonts/built-titling-rg.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "BebasRegular";
+  src: url(./assets/fonts/Bebas-Regular.otf) format("truetype");
+}
+
+@font-face {
+    font-family: 'geek-trend';
+    src: url(./assets/fonts/GeekTrendDemoRegular-qZl6x.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'astro';
+    src: url(./assets/fonts/astro.ttf) format('truetype');
+}
+
+:root {
+  --radial-gradient-background: 250, 250, 250;
+  --solid-color-background: 15, 15, 15;
+  --overlay-color: 255, 255, 255;
+  --font-sora: "Sora", sans-serif;
+    --font-code: "Source Code Pro", monospace;
+    --font-grotesk: "Space Grotesk", sans-serif;
+    color-scheme: dark;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+
+.radial-gradient {
+  background: radial-gradient(
+          circle at 50% 0%,
+          rgba(var(--radial-gradient-background), 0.05) 0%,
+          transparent 60%
+      )
+      rgba(var(--solid-color-background), 1);
+}
+
+.linear-mask {
+  mask-image: linear-gradient(
+      -75deg,
+      white calc(var(--x) + 20%),
+      transparent calc(var(--x) + 30%),
+      white calc(var(--x) + 100%)
+  );
+  -webkit-mask-image: linear-gradient(
+      -75deg,
+      white calc(var(--x) + 20%),
+      transparent calc(var(--x) + 30%),
+      white calc(var(--x) + 100%)
+  );
+}
+
+.linear-overlay {
+  background-image: linear-gradient(
+      -75deg,
+      rgba(var(--overlay-color), 0.1) calc(var(--x) + 20%),
+      rgba(var(--overlay-color), 0.5) calc(var(--x) + 25%),
+      rgba(var(--overlay-color), 0.1) calc(var(--x) + 100%)
+  );
+  mask:
+      linear-gradient(black, black) content-box,
+      linear-gradient(black, black);
+  -webkit-mask:
+      linear-gradient(black, black) content-box,
+      linear-gradient(black, black);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+}
+
+.glassmorphism {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+  }
+  
+
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none; /* Hides the scrollbar */
+  }
+
+
+@layer base {
+    body {
+        @apply font-sans bg-n-8 text-n-1 text-base;
+    }
+}
+
+.rotate-45 {
+    @apply rotate-[45deg];
+}
+
+.rotate-90 {
+    @apply rotate-[90deg];
+}
+
+.rotate-135 {
+    @apply rotate-[135deg];
+}
+
+.rotate-180 {
+    @apply rotate-[180deg];
+}
+
+.rotate-225 {
+    @apply rotate-[225deg];
+}
+
+.rotate-270 {
+    @apply rotate-[270deg];
+}
+
+.rotate-315 {
+    @apply rotate-[315deg];
+}
+
+.rotate-360 {
+    @apply rotate-[360deg];
+}
+
+.-rotate-45 {
+    @apply rotate-[-45deg];
+}
+
+.-rotate-90 {
+    @apply rotate-[-90deg];
+}
+
+.-rotate-135 {
+    @apply rotate-[-135deg];
+}
+
+.-rotate-180 {
+    @apply rotate-[-180deg];
+}
+
+.-rotate-225 {
+    @apply rotate-[-225deg];
+}
+
+.-rotate-270 {
+    @apply rotate-[-270deg];
+}
+
+.-rotate-315 {
+    @apply rotate-[-315deg];
+}
+
+.-rotate-360 {
+    @apply rotate-[-360deg];
+}

@@ -1,0 +1,14 @@
+{ "columns":10,
+ "image":"..\/..\/..\/..\/banner\/Modern Interiors RPG Tileset\/Modern_Interiors\/1_Interiors\/16x16\/Old stuff\/Tileset_16x16_7.png",
+ "imageheight":160,
+ "imagewidth":160,
+ "margin":0,
+ "name":"Tileset_16x16_7",
+ "spacing":0,
+ "tilecount":100,
+ "tiledversion":"1.11.0",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.10"
+}

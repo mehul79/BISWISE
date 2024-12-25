@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+
+
+@font-face {
+  font-family: "PixelyaTrial";
+  src: url(../../assets/fonts/PixelyaTrial.ttf) format("truetype");
+}
+
+.font-family-PixelyaTrial {
+  font-family: "PixelyaTrial", sans-serif;
+}
+
+.leaderboard-section {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+.leaderboard-box h2 {
+  font-family: "Pixelify sans", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.leaderboard-box hr {
+  width: 100%;
+  margin-top: 1rem;
+  border-top: 2px solid #111111;
+}

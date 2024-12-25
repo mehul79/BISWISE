@@ -1,0 +1,14 @@
+{ "columns":7,
+ "image":"..\/..\/..\/..\/New folder (3)\/Modern_Exteriors_16x16\/ME_Theme_Sorter_16x16\/9_Shopping_Center_and_Markets_Singles_16x16\/ME_Singles_Shopping_Center_and_Markets_16x16_Market_Medium_1.png",
+ "imageheight":144,
+ "imagewidth":112,
+ "margin":0,
+ "name":"ME_Singles_Shopping_Center_and_Markets_16x16_Market_Medium_1",
+ "spacing":0,
+ "tilecount":63,
+ "tiledversion":"1.11.0",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.10"
+}
