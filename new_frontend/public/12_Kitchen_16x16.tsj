@@ -1,0 +1,14 @@
+{ "columns":16,
+ "image":"..\/..\/..\/..\/banner\/Modern Interiors RPG Tileset\/Modern_Interiors\/1_Interiors\/16x16\/Theme_Sorter\/12_Kitchen_16x16.png",
+ "imageheight":784,
+ "imagewidth":256,
+ "margin":0,
+ "name":"12_Kitchen_16x16",
+ "spacing":0,
+ "tilecount":784,
+ "tiledversion":"1.11.0",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.10"
+}

@@ -1,0 +1,14 @@
+{ "columns":16,
+ "image":"..\/..\/..\/..\/banner\/Modern Interiors RPG Tileset\/Modern_Interiors\/1_Interiors\/16x16\/Theme_Sorter\/23_Tevelision_and_Film_Studio.png",
+ "imageheight":224,
+ "imagewidth":256,
+ "margin":0,
+ "name":"23_Tevelision_and_Film_Studio",
+ "spacing":0,
+ "tilecount":224,
+ "tiledversion":"1.11.0",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.10"
+}

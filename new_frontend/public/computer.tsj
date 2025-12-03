@@ -1,0 +1,14 @@
+{ "columns":82,
+ "image":"..\/..\/..\/..\/banner\/Modern Interiors RPG Tileset\/Modern_Interiors\/computer.png",
+ "imageheight":590,
+ "imagewidth":1327,
+ "margin":0,
+ "name":"computer",
+ "spacing":0,
+ "tilecount":2952,
+ "tiledversion":"1.11.0",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.10"
+}

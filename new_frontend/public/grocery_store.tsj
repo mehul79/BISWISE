@@ -1,0 +1,14 @@
+{ "columns":16,
+ "image":"..\/..\/..\/..\/banner\/Modern Interiors RPG Tileset\/Modern_Interiors\/1_Interiors\/16x16\/Theme_Sorter\/16_Grocery_store_16x16.png",
+ "imageheight":1248,
+ "imagewidth":256,
+ "margin":0,
+ "name":"grocery_store",
+ "spacing":0,
+ "tilecount":1248,
+ "tiledversion":"1.11.0",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.10"
+}

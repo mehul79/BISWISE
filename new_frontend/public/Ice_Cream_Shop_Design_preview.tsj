@@ -1,0 +1,14 @@
+{ "columns":12,
+ "image":"..\/..\/..\/..\/banner\/Modern Interiors RPG Tileset\/Modern_Interiors\/6_Home_Designs\/Ice-Cream_Shop_Designs\/16x16\/Ice_Cream_Shop_Design_preview.png",
+ "imageheight":160,
+ "imagewidth":192,
+ "margin":0,
+ "name":"Ice_Cream_Shop_Design_preview",
+ "spacing":0,
+ "tilecount":120,
+ "tiledversion":"1.11.0",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.10"
+}

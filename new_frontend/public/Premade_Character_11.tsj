@@ -1,0 +1,14 @@
+{ "columns":56,
+ "image":"..\/..\/..\/..\/banner\/Modern Interiors RPG Tileset\/Modern_Interiors\/2_Characters\/Character_Generator\/0_Premade_Characters\/16x16\/Premade_Character_11.png",
+ "imageheight":656,
+ "imagewidth":896,
+ "margin":0,
+ "name":"Premade_Character_11",
+ "spacing":0,
+ "tilecount":2296,
+ "tiledversion":"1.11.0",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.10"
+}
