@@ -62,7 +62,7 @@ const LandingBefore = () => {
       subject: 'New Contact Message from your Website',
     },
     onSuccess: (msg, data) => {
-      console.log('Form submitted successfully:', msg, data);
+      // console.log('Form submitted successfully:', msg, data);
       setUserName('');
       setUserMail('');
       setUserMsg('');
@@ -94,7 +94,7 @@ const LandingBefore = () => {
       message: userMsg,
     };
 
-    console.log(userInfo)
+    // console.log(userInfo)
 
     onSubmit(userInfo);
   };
@@ -128,13 +128,14 @@ const LandingBefore = () => {
         </div>
         <div
           className="fixed top-0 left-0 w-full h-screen -z-10"
-          style={{
-            backgroundImage: `url(${logo})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            opacity: 0.6,
-          }}
-        ></div>
+        style={{
+          backgroundImage: `url(${logo})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          opacity: 0.6,
+        }}
+        >
+        </div>
         {/* Header*/}
         <section
           className="relative text-center flex-grow flex flex-col md:flex-row items-center justify-around p-8 pt-40 pb-40 h-screen"
