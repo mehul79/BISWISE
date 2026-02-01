@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import logo from "../../assets/back.gif";
+import logo from "../../assets/bg.webm";
 import "./LandingBefore.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import axios from 'axios';
@@ -16,44 +16,6 @@ const LandingBefore = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
-  const [shuffledRanks, setShuffledRanks] = useState([]);
-  const fetchLeaderboard = async () => {
-    try {
-      const response = await axios.get('http://localhost:8000/leaderBoard'); // Adjust URL
-      const leaderboardData = response.data.leaderboard.map((entry) => ({
-        points: entry.score,
-        name: entry.username,
-        isUser: false,
-      }));
-
-      let shuffleRanks = [...leaderboardData];
-      shuffleRanks.sort(() => Math.random() - 0.5); // Initial shuffle
-
-      const shuffleInterval = setInterval(() => {
-        shuffleRanks.sort(() => Math.random() - 0.5);
-        setShuffledRanks([...shuffleRanks]);
-      }, 30);
-
-      setTimeout(() => {
-        clearInterval(shuffleInterval);
-        const sortedRanks = [...shuffleRanks];
-        sortedRanks.sort((a, b) => b.points - a.points); // Sort by points
-        setShuffledRanks(sortedRanks);
-      }, 800);
-
-      return () => clearInterval(shuffleInterval);
-    } catch (error) {
-      console.error('Error fetching leaderboard:', error);
-    }
-  };
-
-  useEffect(() => {
-    fetchLeaderboard();
-  }, []);
-
-
-  const accessKey ='6e945dc1-7434-4b0f-9d4f-b4d49ed10d19';
 
   const { submit: onSubmit } = useWeb3Forms({
     access_key: accessKey,
